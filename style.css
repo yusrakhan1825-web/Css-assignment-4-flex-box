@@ -223,3 +223,57 @@ header img{
     width: 100%;
     height: auto;
 }
+
+.news{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.news h2 {
+    margin-bottom: 20px;
+}
+.news button{
+    background-color: #0e41b0;
+    color: rgb(249, 246, 246);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.news input {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid rgb(20, 18, 18);
+}
+
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+    background-color: #f1f2f4;
+}
+.footer-lines h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #774f4f;
+}
+.footer-lines ul{
+    list-style: none;
+}
+
+.footer-lines ul li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.footer-lines ul li :hover {
+    color: blanchedalmond;
+}
+.logo {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    justify-content: center;
+}
