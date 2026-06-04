@@ -6,10 +6,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media screen {
-    
-}
-
 body {
     background-color: #fffaf5;
 }
@@ -82,19 +78,28 @@ header img{
     line-height: 1.6;
 }
 
-.buy-now-btn {
-    background-color: #4b6fff;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+
+.btn{
+    background-color: #007bff; 
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: background-color 0.3s ease, transform 0.2s ease; /*is se butter ki trhn upr jaega hovr pr*/
 }
 
-.buy-now-btn:hover {
-    background-color: #3a56cc;
+.btn:hover{
+    background-color: #0056b3;
+    transform: translateY(-2px); /*is se button uper ki trf hojata ha click per*/
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /*nichy shadow ajaega click pr */
+}
+.btn:active {
+  transform: translateY(0); /*btn bounce hoga click per */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .product {
@@ -118,23 +123,6 @@ header img{
   object-fit: contain;
 }
 
-.buy-btn:hover {
-    background-color: #2563eb;
-}
-.buy-btn {
-    background-color: #3b82f6;
-    color: white;
-    border: none;
-    padding: 10px 18px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: background-color 0.2s ease;
-}
 
 .box-footer {
     display: flex;
@@ -184,6 +172,7 @@ header img{
     justify-content: space-around;
     align-items: center;
     padding: 50px 5%;
+    width: 100%;
 }
 
 
@@ -191,7 +180,7 @@ header img{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 49%;
+    /* max-width: 49%; */
 }
 
 .card {
@@ -199,19 +188,24 @@ header img{
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+width: 80%;
 }
 
 .card img {
-    width: 15%;
+    width: 50%;
 }
 
 .content-1 {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .content-1 h3 {
+    display: flex;
+    
     color: #444;
 }
 
@@ -229,18 +223,9 @@ header img{
     text-align: center;
     padding: 50px;
     border-radius: 20px;
-
 }
 .news h2 {
     margin-bottom: 20px;
-}
-.news button{
-    background-color: #0e41b0;
-    color: rgb(249, 246, 246);
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
 }
 .news input {
     width: 800px;
@@ -272,6 +257,7 @@ header img{
     color: blanchedalmond;
 }
 .logo {
+    
     text-align: center;
     font-size: 15px;
     color: black;
