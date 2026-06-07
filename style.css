@@ -223,6 +223,7 @@ width: 80%;
     text-align: center;
     padding: 50px;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 .news h2 {
     margin-bottom: 20px;
@@ -262,4 +263,10 @@ width: 80%;
     font-size: 15px;
     color: black;
     justify-content: center;
+}
+.robert{
+    margin-bottom: 50px;
+}
+.reference{
+    color: #2c3e50;
 }
